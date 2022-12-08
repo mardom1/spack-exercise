@@ -14,6 +14,7 @@ class SpackExercise(CMakePackage):
 
     maintainers = ["mardom1"]
 
+    version("develop", git="https://github.com/Simulation-Software-Engineering/spack-exercise.git")
     version("0.3.0", sha256="53f926a12a5dfee9c6ae20f979a9da5b8b128178f150fc9ea4427ac06876588d")
     version("0.2.0", sha256="c421df16911fd774aa072d7f6dd1746d0890918f7d0661202771382fbc9cf3db")
     version("0.1.0", sha256="7e9513c1ff32152a707d3004bc6be91e077002963f9945cd5b16c04fc010d8ba")
